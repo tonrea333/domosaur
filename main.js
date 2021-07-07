@@ -63,5 +63,15 @@ const backgroundButtonColor = document.querySelector("#toggle");
 backgroundButtonColor.addEventListener("click", onClick3);
 
 function onClick3(){
-    
+    backgroundButtonColor.style.background = "red";
+}
+
+//Add an event listener to the dinosaur with the id biggify that, when HOVERED, grows the image to 200 pixels wide. Note that this is a different event, and you'll likely need to do some research on what different string you'll need to pass. It's not gonna be click!
+
+const hoverSize = document.querySelector("#biggify");
+
+
+
+function mouseOver(){
+    hoverSize.onmouseover.width = "200px";
 }
